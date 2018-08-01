@@ -1,0 +1,54 @@
+body{
+    font-family:Arial, "Arial Unicode MS", Helvetica, "DejaVu Sans", "Lucida Sans Unicode", sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:960px;
+    max-width:960px;
+    margin:0 auto;
+}
+
+#auth, #chat{
+    margin-top:75px;
+}
+
+.input-nice{
+    padding:5px 10px;
+}
+
+.input-nice::placeholder{
+    opacity:0.6;
+}
+
+.btn-nice{
+    border:0;
+    background-color:#0984e3;
+    color:#fff;
+    padding:7px 12px;
+    font-size:13px;
+    cursor:pointer;
+}
+
+.btn-nice:hover{
+    background-color:#0991f3;
+}
+
+#chatbox{
+    width:100%;
+    min-height:300px;
+    max-height:300px;
+    border:1px solid #ccc;
+    overflow:hidden;
+}
+
+#actionbox input[type="text"]{
+    width:958px;
+    margin-top:10px;
+    overflow:auto;
+}
+
+#chat-messages{
+    padding:15px;
+}
